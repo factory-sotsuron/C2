@@ -1,0 +1,112 @@
+@charset "UTF-8";
+html {
+    touch-action: manipulation;
+}
+
+@font-face {
+	font-family: 'PixelMplus 12';
+	src: url('../PixelMplus-20130602/PixelMplus12-Regular.ttf');
+}
+
+body{
+	margin: 0 0 0 0;
+	background-color: #000000;
+	font-family: 'PixelMplus 12';
+}
+.wrapper1{
+	margin: 0 auto 0 auto;
+	max-width: 1050px;
+}
+h1{
+	color: #ffffff;
+	font-size: 40px;
+	margin: 80px 0 80px 0;
+}
+
+h2{
+	color: #ffffff;
+	font-size: 30px;
+}
+
+h3{
+	color: #ffffff;
+	font-size: 24px;
+}
+
+p{
+	color: #ffffff;
+	line-height: 2.8;
+	font-size: 20px;
+}
+
+.nav li{
+	list-style-type: none;
+	font-size: 40px;
+	text-align: center;
+	margin: 20px;
+
+}
+.nav ul{
+	margin: 0 0 0 0;
+	padding: 60px 0px 60px 0px;
+}
+.nav a:link {
+	color: #3c454d;
+	text-decoration: none;
+}
+.nav a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+.nav a:hover {
+	color: #7b8dac;
+	text-decoration: none;
+}
+.nav a:active {
+	color: #5a9bc0;
+	text-decoration: none;
+}
+
+
+.wrapper-container {
+	display: inline-block;
+	background-color: #333333;
+	margin: 80px;
+}
+
+.tetris-container {
+	display: flex;
+	flex-direction: row;
+	margin: 10px;
+	background-color: #333333;
+}
+
+.tetris-panel-container {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-direction: column;
+    color: white;
+    background-color: #333333;
+}
+
+.tetris-panel-container-padding {
+    flex-grow: 1;
+}
+
+.tetris-panel-container p {
+   margin: 0;
+   padding: 0;
+}
+
+.tetris-button-panel {
+    border-style: none;
+    width: 100%;
+}
+
+.tetris-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: #444444;
+}
