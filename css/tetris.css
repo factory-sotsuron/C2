@@ -1,0 +1,88 @@
+@charset "UTF-8";
+html {
+    touch-action: manipulation;
+}
+
+body{
+	margin: 0 0 0 0;
+	background-color: #ffffff;
+}
+.wrapper1{
+	margin: 0 auto 0 auto;
+	max-width: 600px;
+}
+h1{
+	color: #000000;
+	font-size: 60px;
+	text-align: center;
+}
+.nav li{
+	list-style-type: none;
+	padding-right: 30px;
+	font-size: 24px;
+	text-align: center;
+
+}
+.nav ul{
+	margin: 0 0 0 0;
+	padding: 60px 0px 60px 0px;
+}
+.nav a:link {
+	color: #3c454d;
+	text-decoration: none;
+}
+.nav a:visited {
+	color: #3c454d;
+	text-decoration: none;
+}
+.nav a:hover {
+	color: #7b8dac;
+	text-decoration: none;
+}
+.nav a:active {
+	color: #5a9bc0;
+	text-decoration: none;
+}
+
+.wrapper-container {
+	display: inline-block;
+	background-color: #333333;
+	margin: 80px;
+}
+
+.tetris-container {
+	display: flex;
+	flex-direction: row;
+	margin: 10px;
+	background-color: #333333;
+}
+
+.tetris-panel-container {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-direction: column;
+    color: white;
+    background-color: #333333;
+}
+
+.tetris-panel-container-padding {
+    flex-grow: 1;
+}
+
+.tetris-panel-container p {
+   margin: 0;
+   padding: 0;
+}
+
+.tetris-button-panel {
+    border-style: none;
+    width: 100%;
+}
+
+.tetris-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: #444444;
+}
