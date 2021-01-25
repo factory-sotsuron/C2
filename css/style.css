@@ -5,7 +5,7 @@ html {
 
 @font-face {
 	font-family: 'PixelMplus 12';
-	src: url('../PixelMplus-20130602/PixelMplus12-Regular.ttf');
+	src: url('../font/PixelMplus12-Regular.ttf');
 }
 
 body{
@@ -31,6 +31,12 @@ h2{
 h3{
 	color: #ffffff;
 	font-size: 24px;
+}
+
+h4{/*追加*/
+	color:#ffffff;
+	font-size: 70px;
+	padding: 0 40px 0 40px;
 }
 
 p{
@@ -97,7 +103,14 @@ p{
 	margin: 80px;
 }
 
-.tetris-container {
+.img-container{/*追加*/
+	display:flex;/* flexbox */
+	justify-content:center; /* 水平方向 */
+	align-items: center; /* 垂直方向 */
+	padding: 0 0 40px 0;
+
+	
+/*.tetris-container {
 	display: flex;
 	flex-direction: row;
 	margin: 10px;
@@ -132,4 +145,4 @@ p{
     padding-bottom: 10px;
     text-align: center;
     background: #444444;
-}
+}*/
