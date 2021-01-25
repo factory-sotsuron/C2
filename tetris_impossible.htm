@@ -7,5 +7,27 @@
   <body>
     <canvas id="can"></canvas>
     <script src="js/tetris_impossible.js"></script>
+    <main>
+    <h2>結果</h2>
+		<form action="https://api.staticforms.xyz/submit" method="post">
+			<div>
+				名前<br>
+				<input type="text" name="name" placeholder="名前">
+			</div>
+			<div>
+				経過時間<br>
+				<input type="text" name="email" placeholder="00:00">
+			</div>
+			
+			<input type="hidden" name="accessKey" value="ea2f17f5-9906-49fb-ae1a-e43a169bb945">
+			<input type="hidden" name="subject" value="テトリス結果">
+			<input type="hidden" name="replyTo" value="@">
+			<input type="hidden" name="redirectTo" value="https://factory-sotsuron.github.io/C2/close.html">
+			<div>
+				<input type="submit" value="送信">
+			</div>
+			<br>
+		</form>
+    </main>
   </body>
 </html>
