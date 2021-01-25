@@ -19,8 +19,9 @@ body{
 }
 h1{
 	color: #ffffff;
-	font-size: 40px;
-	margin: 80px 0 80px 0;
+	font-size: 110px;/*変更*/
+	margin: 300px 0 50px 0;
+	text-align: center;
 }
 
 h2{
