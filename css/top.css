@@ -52,11 +52,11 @@ p{
 	padding: 60px 0px 60px 0px;
 }
 .nav a:link {
-	color: #3c454d;
+	color: #ffffff;
 	text-decoration: none;
 }
 .nav a:visited {
-	color: #fff;
+	color: #ffffff;
 	text-decoration: none;
 }
 .nav a:hover {
@@ -64,7 +64,7 @@ p{
 	text-decoration: none;
 }
 .nav a:active {
-	color: #5a9bc0;
+	color: #7b8dac;
 	text-decoration: none;
 }
 
